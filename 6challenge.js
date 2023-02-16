@@ -18,7 +18,7 @@ every word capitalized. For example, if you were
  5 call the function we created earlier inside this loop. 
  6 by now, all words should be as desired, join the array elements
  back to a single string and print out the sentence.
-
+*/
 //step 1
 var sentence  = "this took me ages!";
 //step 2
@@ -38,4 +38,3 @@ for (var i=0; i<sentenceArray.length; i++) {
 //step 6
 sentence = sentenceArray.join(" ");
 console.log(sentence);
-*/

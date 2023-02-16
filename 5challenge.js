@@ -13,7 +13,7 @@ pseudocode =
 - using a for loop, interpolation, log sentences for each destination.
 */
 
-array = ["New York", "California", "Philadelphia", "Vancouver"];
+var array = ["New York", "California", "Philadelphia", "Vancouver"];
 array.sort();
 for(i=0; i<array.length; i++) {
     console.log(`The next place I want to visit is ${array[i]}.`);

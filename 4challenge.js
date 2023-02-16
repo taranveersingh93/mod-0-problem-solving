@@ -9,7 +9,7 @@ pseudocode =
 "ing"
 - if false, do nothing; if true, print to console. 
 */
-array = ["bake", "bakery", "baking", "baked", "ingsample", "sampling"];
+var array = ["bake", "bakery", "baking", "baked", "ingsample", "sampling"];
 for(var i=0; i<array.length; i++) {
     if(array[i].includes("ing")===true) {
         console.log(array[i]);

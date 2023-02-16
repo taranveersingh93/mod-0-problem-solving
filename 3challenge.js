@@ -11,7 +11,7 @@ pseudocode =
 - if false, do nothing; if true, print to console.
 */ 
 
-array = ["three", "four", "thirty", "fifty"];
+var array = ["three", "four", "thirty", "fifty"];
 for(var i=0; i<array.length; i++) {
     if(array[i].startsWith("t")===true) {
         console.log(array[i]);
